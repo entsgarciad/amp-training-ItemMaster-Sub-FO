@@ -28,8 +28,7 @@ services:
 
   postgres:
     image: postgres
-    hostname: postgres
-    container_name: postgres
+    hostname: postgres    
     restart: always
     ports:
       - ${HOST_PORT_PREFIX}32:5432
